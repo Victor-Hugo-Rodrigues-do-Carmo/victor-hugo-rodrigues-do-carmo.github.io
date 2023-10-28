@@ -1,0 +1,194 @@
+a:link {
+    color: white;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.lang:hover {
+    animation: glow 0.85s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+      text-shadow: 0 0 20px white, 0 0 30px white;
+    }
+    100% {
+      text-shadow: 0 0 30px white, 0 0 40px white;
+    }
+}
+
+#A1 {
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    height: 108px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+#A2 {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: -22px;
+    left: 0px;
+}
+
+#A3 {
+    text-align: center;
+    z-index: 3;
+    width: 95%;
+    position: absolute;
+    top: 200px;
+    left: 48px
+}
+
+#A4 {
+    z-index: 2;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top-color: white;
+    border-top-width: 1px;
+    border-top-style: solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.A5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+#A6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    padding: 15px;
+}
+
+#A7 {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    font-size: 28px;
+    color: white;
+    width: 90%;
+    z-index: 3;
+    position: absolute;
+    top: 380px;
+    left: 80px;
+    justify-content: center;
+}
+
+#A8 {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    z-index: 3;
+    position: absolute;
+    bottom: 5px;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header {
+    font-size: 24px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.lang {
+    margin-bottom: 14px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#closex {
+    color: red;
+    font-size: 48px;
+    margin-right: 12px;
+}
+
+#datex {
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+
+#birthdate {
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+    font-size: 24px;
+    border-radius: 50px;
+    padding-inline: 5px;
+}
+
+#submitButton {
+    border: none;
+    background: transparent;
+    border: 1px solid red;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-top: 20px;
+    padding-inline: 5px;
+}
+
+.custom-div {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 4;
+}
+
+input[type="date"] {
+    border: none;
+    outline: none;
+}

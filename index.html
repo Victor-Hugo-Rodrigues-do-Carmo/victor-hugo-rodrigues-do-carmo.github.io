@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Capcom: Resident Evil 2 Fan-Made Site</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="capcom_logo.png" type="image/png">
+    </head>
+    <body>
+        <div id="A1"></div>
+        <main>
+            <video autoplay loop muted id="A2">
+                <source src="videoloop.mp4" type="video/mp4">
+            </video>
+            <div id="A3">
+                <img src="logo.png" style="height: 130px">
+            </div>
+            <nav id="A7">
+                <div>
+                    <div class="header">Americas</div>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"></div><div class="lang"><span style="color: red">-</span> English[US]</div></a>
+                </div>
+                <div>
+                    <div class="header">Europe</div>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> English[UK]</div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> French </div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> Italian </div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> German </div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> Spanish </div></a>
+                </div>
+                <div>
+                    <div class="header">Asia Pacific</div>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> 繁體中文 </div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> 简体中文 </div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> 한국어 </div></a>
+                    <a class="modalx" href="https://www.residentevil2.com/"><div class="lang"><span style="color: red">-</span> Japanese </div></a>
+                </div>
+            </nav>
+        </main>
+        <footer>
+            <nav id="A4">
+                <div style="margin-left: 22px; padding: 20px">
+                    <a href="https://www.capcom.com/" target="_blank"><img src="capcom.png" style="width: 137px"></a>
+                </div>
+                <div class="A5">
+                    <a href="https://www.capcom-games.com/en/terms/" target="_blank"><span style="color: red">&#x25B8;</span> Terms</a>
+                </div>
+                <div class="A5">
+                    <a href="https://www.capcom-games.com/en/legal/privacy-policy/" target="_blank"><span style="color: red">&#x25B8;</span> Privacy Policy</a>
+                </div>
+                <div class="A5">
+                    <a href="https://www.residentevil.com/cookie-policy.html" target="_blank"><span style="color: red">&#x25B8;</span> Cookie Policy</a>
+                </div>
+                <div id="A6" style="position: absolute; right: 0px; text-align: right; margin-right: 22px">
+                    All <a href="https://www.capcom-games.com/en/legal/tm/" target="_blank"><span style="color: red"><u>trademarks</u></a>
+                    </span> referenced herein are the properties of their respective owners.
+                    <br>©CAPCOM CO.,LTD. 1998, 2019 ALL RIGHTS RESERVED.
+                </div>
+                <div id="A8">
+                    <a href="https://www.linkedin.com/in/victor-h-r-carmo-0180ab24a/" target="_blank"><img src="eu.png" style="width: 55px"></a>
+                </div>
+            </nav>
+        </footer>
+        <div id="myModal" class="modal" style="z-index: 4">
+        <span class="close" onclick="closeModal()" id="closex">&times;</span>
+            <div class="modal-content">
+                <p id="datex"><b>DATE OF BIRTH</b></p>
+                <input type="date" id="birthdate">>
+                <br><button id="submitButton" onclick="submitDate()">ENTER</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
